@@ -1,0 +1,16 @@
+---
+allow_duplicates: no
+
+galaxy_info:
+  author: sarrubia
+  description: Install Phalcon PHP Framework stable version using apt for Ubuntu and Debian
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+    - web
+    - development
+    - system
