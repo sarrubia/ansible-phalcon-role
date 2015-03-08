@@ -1,11 +1,11 @@
 - name: Add Phalcon PHP Framework PPA repository
   apt_repository: repo='ppa:phalcon/stable'
-  tags: pahlcon
+  tags: phalcon
 
 - name: Update APT cache
   apt: update_cache=true
-  tags: pahlcon
+  tags: phalcon
 
 - name: Install Phalcon PHP Framework
   apt: pkg=php5-phalcon state=installed
-  tags: pahlcon
+  tags: phalcon
